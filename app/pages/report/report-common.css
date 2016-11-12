@@ -1,0 +1,49 @@
+
+.page-container {
+    background-color: #012c47;
+}
+
+.grid-container {
+    margin: 20 20 20 20;
+    background-color: white;
+    padding: 20 20 20 20;
+    border-radius: 10;
+    border: 2px solid black;
+}
+
+.field-label{
+    color: #012c47;
+    horizontal-align: left;
+    font-size: 14;
+    margin-top: 10;
+}
+
+.field-content{
+    horizontal-align: stretch;
+    font-size: 14;
+    padding: 10 0;
+}
+
+.field-multi{
+    min-height: 80;
+    max-height: 80;
+    font-size: 14;
+    margin: 10 0;
+}
+
+.img-container {
+    margin: 20 10 10 10;
+    text-align: center;
+    border-width: 1;
+    border-color: lightgray;
+    vertical-align: middle;
+    color: #0284d7;
+    font-size: 30;
+  /*  background-image: url("res://add_image");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;*/
+    height: 80;
+    width: 80;
+    border-radius: 10;
+}

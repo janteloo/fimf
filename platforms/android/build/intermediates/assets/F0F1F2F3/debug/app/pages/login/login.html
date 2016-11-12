@@ -1,0 +1,13 @@
+<StackLayout>
+  <GridLayout rows="* * * * * * * * *" columns="* *">
+    <Image src="res://login_img1" stretch="fill" #backImage row="0" rowSpan="9" colSpan="2"></Image>
+    <StackLayout class="text-container" #container row="0" rowSpan="9" colSpan="2"> 
+      <Label text="Report a"  class="big-header header1" #header1> </Label>
+      <Label text="Lost/Found"  class="big-header header2" #header2> </Label>
+      <Label text="Friend" class="big-header header3" #header3></Label>
+    </StackLayout>
+    <Image src="res://logo_login" row="7" colSpan="2" horizontalAlignment="center" verticalAlignment="center" #logo> </Image>
+    <Button text="Login" col="0" row="8" class="blueBtn" #loginBtn (tap)="onLoginTap()"></Button>
+    <Button text="Sign Up" col="1" row="8" class="redBtn" #signUpBtn></Button>
+  </GridLayout>
+</StackLayout>

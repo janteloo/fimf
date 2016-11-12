@@ -1,0 +1,31 @@
+<ActionBar title="Report Lost/Found Friends">
+  <NavigationButton text="Go Back" icon="res://back_btn" (tap)="onNavBtnTap()" horizontalAligment="center"></NavigationButton>
+  <StackLayout orientation="horizontal" ios:horizontalAlignment="center" android:horizontalAlignment="center">
+    <Label text="Report Lost/Found Friends"></Label>
+  </StackLayout>
+</ActionBar>
+
+<StackLayout class="page-container">
+  <GridLayout class="grid-container" rows="auto auto *" columns="*">
+    <GridLayout row="0" rows="auto auto auto auto" columns="*" class="form-grid" verticalAligment="top">
+        <Label text="Subject: " row="0"  class="field-label"> </Label>
+        <TextField hint="Eg. Dog Found On The Street" row="1" class="field-content"></TextField>
+        <Label text="Description: " row="2" class="field-label"> </Label>
+        <TextView row="3" class="field-multi"></TextView>
+    </GridLayout>
+    <GridLayout row="1" rows="auto auto" columns="* * *">
+      <Label text="Upload up to 3 images" row="0"  colSpan="3" class="field-label"> </Label>
+      <Button text="+" col="0" class="img-container" row="1"></Button>
+      <Button text="+" col="1" class="img-container" row="2"></Button>
+      <Button text="+" col="2" class="img-container" row="3"></Button>  
+    </GridLayout>
+    <GridLayout row="2" rows="auto * auto" columns="* *">
+      <Label text="Set the location where you found your friend" row="0" class="field-label" colSpan="2"> </Label>  
+      <StackLayout row="1" colSpan="2">
+          <MapView latitude="-34.907079" longitude="-56.146997" zoom="15"></MapView>
+       </StackLayout>
+      <Button text="Save" row="2" col="0" class="blueBtn"></Button>
+      <Button text="Cancel" row="2" col="1" class="redBtn"></Button>
+    </GridLayout>
+  </GridLayout>
+</StackLayout>

@@ -1,0 +1,60 @@
+.drawerContentText {
+    font-size: 13;
+    padding: 10;
+}
+
+.sideStackLayout {
+    background-color: gray;
+}
+
+.sideTitleStackLayout {
+    padding: 10;
+    text-align: center;
+}
+
+.sideLabel {
+    padding: 10;
+}
+
+.sideLightGrayLabel {
+    background-color: lightgray;
+}
+
+
+.bottom {
+   /* opacity:0;
+    animation-name: showBottom;
+    animation-duration: 1;
+    animation-delay: 2;
+    animation-fill-mode: forwards;*/
+    background-color: #0284d7;
+    font-weight: bold;
+}
+
+/*.map-container {
+    animation-name: showMap;
+    animation-duration: 2;
+    animation-fill-mode: forwards;
+}*/
+
+/*@keyframes showBottom {
+    from { 
+        transform: translate(0, 200);
+        opacity: 0; }
+    to { 
+        transform: translate(0, 0); 
+        opacity: 1}
+}*/
+
+.paw-button {
+    margin-top: 5px;
+    height:50;
+    width:50;
+}
+
+/*@keyframes showMap {
+    from { opacity: 0; transform:scale(2, 2); }
+    to { opacity: 1; transform:scale(1,1) }
+}*/
+
+

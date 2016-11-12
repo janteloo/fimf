@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\fimf\\find-my-friend\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1F2F3\\debug\\layout-v11\\simple_list_item.xml",
+        "source": "C:\\fimf\\find-my-friend\\platforms\\android\\build\\intermediates\\exploded-aar\\List-2016.3.920-dev-release\\res\\layout-v11\\simple_list_item.xml"
+    },
+    {
+        "merged": "C:\\fimf\\find-my-friend\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1F2F3\\debug\\layout-v11\\on_demand_manual.xml",
+        "source": "C:\\fimf\\find-my-friend\\platforms\\android\\build\\intermediates\\exploded-aar\\List-2016.3.920-dev-release\\res\\layout-v11\\on_demand_manual.xml"
+    }
+]

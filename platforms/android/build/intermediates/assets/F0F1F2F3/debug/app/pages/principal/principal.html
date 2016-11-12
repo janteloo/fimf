@@ -1,0 +1,13 @@
+<menu>
+  <StackLayout class="content">
+    <GridLayout rows="*, *, *, *, *, *, *, *">
+        <StackLayout class="map-container" rowSpan="7">
+          <MapView (mapReady)="onMapReady($event)" (markerSelect)="onMarkerEvent($event)" horizontalAligment="center" latitude="-34.907079" longitude="-56.146997" zoom="15"></MapView>
+        </StackLayout>
+        <StackLayout class="bottom" row="8">
+	        <Image #pawButtonImage src="res://paw_button" class="paw-button" horizontalAligment="center" (tap)="onButtonTap()" ></Image>
+        </StackLayout>
+    </GridLayout>
+  </StackLayout>
+</menu>
+

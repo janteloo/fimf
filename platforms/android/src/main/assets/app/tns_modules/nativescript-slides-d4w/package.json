@@ -1,0 +1,109 @@
+{
+  "name": "nativescript-slides-d4w",
+  "version": "1.7.2",
+  "description": "NativeScript Slides plugin (edited).",
+  "main": "nativescript-slides.js",
+  "nativescript": {
+    "platforms": {
+      "android": "2.0.0",
+      "ios": "2.0.0"
+    },
+    "tns-ios": {
+      "version": "2.0.1"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "demo.ios": "npm run preparedemo && cd demo && tns emulate ios",
+    "demo.android": "npm run preparedemo && cd demo && tns run android",
+    "preparedemo": "npm run build && cd demo && tns plugin remove nativescript-slides && tns plugin add .. && tns install",
+    "setup": "npm install && cd demo && npm install && cd .. && npm run build && cd demo && tns plugin add .. && cd ..",
+    "livesync.ios": "cd demo  && tns livesync ios --watch",
+    "livesync.android": "cd demo  && tns livesync android --watch",
+    "ios": "xcproj --project platforms/ios/YourApp.xcodeproj touch; xcproj --project platforms/ios/Pods/Pods.xcodeproj touch; tns livesync ios --emulator --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thyquorthon/nativescript-slides.git"
+  },
+  "keywords": [
+    "NativeScript",
+    "JavaScript",
+    "Android",
+    "iOS",
+    "TypeScript",
+    "swipe slides",
+    "Slides",
+    "Carousel"
+  ],
+  "author": {
+    "name": "Josh Sommer",
+    "email": "joshdsommer@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Brad Martin",
+      "email": "bradwaynemartin@gmail.com",
+      "url": "https://github.com/bradmartin"
+    },
+    {
+      "name": "Obsessive Inc/Abhijith Reddy",
+      "email": "mabhijith95a10@gmail.com",
+      "url": "https://github.com/Obsessive"
+    },
+    {
+      "name": "Victor Nascimento",
+      "email": "victormota15@gmail.com",
+      "url": "https://github.com/vjoao"
+    },
+    {
+      "name": "Steve McNiven-Scott",
+      "email": "steve@sitefinitysteve.com",
+      "url": "https://github.com/sitefinitysteve"
+    },
+    {
+      "name": "Jorge Arévalo Tejeda",
+      "email": "jorge@bcnbynight.com",
+      "url": "https://github.com/thyquorthon"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/TheOriginalJosh/nativescript-slides/issues"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/TheOriginalJosh/nativescript-slides/blob/master/LICENSE"
+  },
+  "homepage": "https://github.com/TheOriginalJosh/nativescript-slides",
+  "devDependencies": {
+    "typescript": "^1.8.7",
+    "tns-platform-declarations": "^2.0.0"
+  },
+  "dependencies": {},
+  "gitHead": "1f1f2622238e799cb0d0c0db7fccd0d85a6be4c6",
+  "_id": "nativescript-slides-d4w@1.7.2",
+  "_shasum": "a133429cadec92b36c11521c35e7026cb59f45c7",
+  "_from": "nativescript-slides-d4w@latest",
+  "_npmVersion": "2.11.3",
+  "_nodeVersion": "0.12.7",
+  "_npmUser": {
+    "name": "quorthon",
+    "email": "jorge@bcnbynight.com"
+  },
+  "dist": {
+    "shasum": "a133429cadec92b36c11521c35e7026cb59f45c7",
+    "tarball": "https://registry.npmjs.org/nativescript-slides-d4w/-/nativescript-slides-d4w-1.7.2.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "quorthon",
+      "email": "jorge@bcnbynight.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/nativescript-slides-d4w-1.7.2.tgz_1467698014109_0.7428490531165153"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/nativescript-slides-d4w/-/nativescript-slides-d4w-1.7.2.tgz"
+}

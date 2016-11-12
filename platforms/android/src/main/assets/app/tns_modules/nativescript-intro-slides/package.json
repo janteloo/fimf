@@ -1,0 +1,74 @@
+{
+  "name": "nativescript-intro-slides",
+  "version": "1.0.6",
+  "description": "NativeScript intro slides plugin.",
+  "main": "nativescript-intro-slides.js",
+  "nativescript": {
+    "platforms": {
+      "android": "2.0.0",
+      "ios": "2.0.0"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "demo.ios": "npm run preparedemo && cd demo && tns emulate ios",
+    "demo.android": "npm run preparedemo && cd demo && tns run android",
+    "preparedemo": "npm run build && cd demo && tns plugin remove nativescript-intro-slides && tns plugin add .. && tns install",
+    "setup": "npm install && cd demo && npm install && cd .. && npm run build && cd demo && tns plugin add .. && cd ..",
+    "livesync.ios": "cd demo  && tns livesync ios --watch",
+    "livesync.android": "cd demo  && tns livesync android --watch",
+    "ios": "xcproj --project platforms/ios/YourApp.xcodeproj touch; xcproj --project platforms/ios/Pods/Pods.xcodeproj touch; tns livesync ios --emulator --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheOriginalJosh/nativescript-intro-slides.git"
+  },
+  "keywords": [
+    "NativeScript",
+    "JavaScript",
+    "Android",
+    "iOS"
+  ],
+  "author": {
+    "name": "Josh Sommer",
+    "email": "joshdsommer@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/TheOriginalJosh/nativescript-intro-slides/issues"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/TheOriginalJosh/nativescript-intro-slides/blob/master/LICENSE"
+  },
+  "homepage": "https://github.com/TheOriginalJosh/nativescript-intro-slides",
+  "devDependencies": {
+    "typescript": "^1.8.7"
+  },
+  "gitHead": "0c58f62d742a9acc22ca7c7eee1926d77eb85e89",
+  "_id": "nativescript-intro-slides@1.0.6",
+  "_shasum": "0ec59c905fd805c0d7540eb292632afc080a987d",
+  "_from": "nativescript-intro-slides@>=1.0.6 <2.0.0",
+  "_npmVersion": "3.5.2",
+  "_nodeVersion": "4.4.2",
+  "_npmUser": {
+    "name": "joshdsommer",
+    "email": "joshdsommer@gmail.com"
+  },
+  "dist": {
+    "shasum": "0ec59c905fd805c0d7540eb292632afc080a987d",
+    "tarball": "https://registry.npmjs.org/nativescript-intro-slides/-/nativescript-intro-slides-1.0.6.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "joshdsommer",
+      "email": "joshdsommer@gmail.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/nativescript-intro-slides-1.0.6.tgz_1463652159504_0.45319726574234664"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/nativescript-intro-slides/-/nativescript-intro-slides-1.0.6.tgz",
+  "readme": "ERROR: No README data found!"
+}

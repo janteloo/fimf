@@ -1,0 +1,25 @@
+
+<RadSideDrawer exampleTitle toggleNavButton>
+    <StackLayout tkDrawerContent class="sideStackLayout">
+          <StackLayout class="sideStackLayout">
+            <Label text="Primary" class="sideLabel"></Label>
+            <Label text="Social" class="sideLabel"></Label>
+            <Label text="Promotions" class="sideLabel"></Label>
+            <Label text="Labels" class="sideLabel"></Label>
+            <Label text="Important" class="sideLabel"></Label>
+            <Label text="Starred" class="sideLabel"></Label>
+            <Label text="Sent Mail" class="sideLabel"></Label>
+            <Label text="Drafts" class="sideLabel"></Label>
+        </StackLayout>
+    </StackLayout>
+    <StackLayout tkMainContent>
+        <ActionBar title="FiMF">
+          <NavigationButton icon="res://ic_drawer" (tap)="openDrawer()" class="drawer-image"></NavigationButton>
+          <StackLayout orientation="horizontal" ios:horizontalAlignment="center" android:horizontalAlignment="center" class="action-stack">
+            <Image src="res://action_logo" class="action-image"></Image>
+          </StackLayout>
+        </ActionBar>
+        <ng-content></ng-content>
+    </StackLayout>
+</RadSideDrawer>
+

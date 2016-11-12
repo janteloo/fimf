@@ -1,0 +1,58 @@
+
+.submit-button {
+  background-color: #CB1D00;
+  color: white;
+  margin-top: 20;
+}
+
+.bottom {
+  margin-top: 0px;
+}
+
+.big-header {
+  color:white;
+  font-size: 50;
+  font-weight: bold;
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.text-container {
+  margin: 50;
+}
+
+.text-container2 {
+  margin-top: 80;
+  margin-left: 20;
+}
+
+.header1 {
+  opacity:0;
+  animation-delay: 0.5s;
+  animation-name: show;
+  animation-duration: 1s;
+}
+
+.header2 {
+  opacity:0;
+  animation-name: show;
+  animation-duration: 1s;
+  animation-delay: 1s;
+}
+
+.header3 {
+  opacity:0;
+  animation-name: show;
+  animation-duration: 1s;
+  animation-delay: 1.5s;
+}
+
+@keyframes show {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+Button {
+  height: 50;
+  margin-bottom: 0;
+}
+

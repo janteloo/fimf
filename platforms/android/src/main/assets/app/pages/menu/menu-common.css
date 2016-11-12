@@ -1,0 +1,38 @@
+.drawerContentText {
+    font-size: 13;
+    padding: 10;
+}
+
+.sideStackLayout {
+    background-color: black;
+    color: white;
+    font-size: 15;
+    font-weight: bold;
+}
+
+.sideTitleStackLayout {
+    padding: 10;
+    text-align: center;
+}
+
+.sideLabel {
+    padding: 10;
+}
+
+
+.drawer-image {
+    width: 50;
+    height: 50;
+}
+
+.action-image {
+    width: 40;
+    height: 40;
+    vertical-align: center;
+    margin: auto;
+}
+
+.action-stack {
+    width: 100%;
+}
+

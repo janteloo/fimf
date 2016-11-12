@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\fimf\find-my-friend\platforms\android\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\fimf\find-my-friend\platforms\android\build\intermediates\pre-dexed\F0F1F2F3\debug\com.android.support-appcompat-v7-23.4.0_9fca539a2b70499d44d5904eb4bb23300e8e9175.jar" />
+    </item>
+    <item
+        jar="C:\fimf\find-my-friend\platforms\android\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\fimf\find-my-friend\platforms\android\build\intermediates\pre-dexed\F0F1F2F3\debug\com.android.support-animated-vector-drawable-23.4.0_e9f111235389a758677ae9eeb30363126a37380c.jar" />
+    </item>
+    <item
+        jar="C:\fimf\find-my-friend\platforms\android\build\intermediates\exploded-aar\Common-2016.3.920-dev-release\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="c62048aafe399ba0e0927c15b5a48e4b73766a2f">
+        <dex dex="C:\fimf\find-my-friend\platforms\android\build\intermediates\pre-dexed\F0F1F2F3\debug\intermediates-exploded-aar-Common-2016.3.920-dev-release_14d8d1ec1f00d8d16e2bb4072046ca1cda17560f.jar" />
+    </item>
+    <item
+        jar="C:\fimf\find-my-friend\platforms\android\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
+        <dex dex="C:\fimf\find-my-friend\platforms\android\build\intermediates\pre-dexed\F0F1F2F3\debug\com.android.support-recyclerview-v7-23.1.0_5d46113c73c91f43ff40c5290a6acc9d0580e92c.jar" />
+    </item>
+    <item
+        jar="C:\fimf\find-my-friend\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="4a36600281a648769411ef642c331851732bf29e">
+        <dex dex="C:\fimf\find-my-friend\platforms\android\build\intermediates\pre-dexed\F0F1F2F3\debug\com.google.android.gms-play-services-tasks-9.6.1_a4b23e391c967fb2116ccafbe76720275e87ac84.jar" />
+    </item>
+    <item
+        jar="C:\fimf\find-my-friend\platforms\android\build\intermediates\exploded-aar\findmyfriend\runtime\unspecified\jars\libs\binding-generator.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="4290aba11bda501dbadc2dd5c4b08282c0bbfeb8">
+        <dex dex="C:\fimf\find-my-friend\platforms\android\build\intermediates\pre-dexed\F0F1F2F3\debug\binding-generator_230f9e1c807b5de1dee5a56526b497a2c1f91ddb.jar" />
+    </item>
+    <item
+        jar="C:\fimf\find-my-friend\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="62ff84124b89177abc0c27f3e38c9732f2d41617">
+        <dex dex="C:\fimf\find-my-friend\platforms\android\build\intermediates\pre-dexed\F0F1F2F3\debug\com.google.android.gms-play-services-maps-9.6.1_5e9f157e67a5ee4572bdf160de0d2a59e35c8826.jar" />
+    </item>
+    <item
+        jar="C:\fimf\find-my-friend\platforms\android\build\intermediates\exploded-aar\findmyfriend\runtime\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="9909ad5fcc13fcc60529cfa340ee7e0abc79af38">
+        <dex dex="C:\fimf\find-my-friend\platforms\android\build\intermediates\pre-dexed\F0F1F2F3\debug\findmyfriend-runtime-unspecified_764e4803520b2bfa8297318f0c6577b24cb0d73c.jar" />
+    </item>
+    <item
+        jar="C:\fimf\find-my-friend\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="C:\fimf\find-my-friend\platforms\android\build\intermediates\pre-dexed\F0F1F2F3\debug\com.android.support-support-v4-24.0.0_cd9ba9dc30291e07fe229e4639ef1f6e59211c6c.jar" />
+    </item>
+    <item
+        jar="C:\fimf\find-my-friend\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
+        <dex dex="C:\fimf\find-my-friend\platforms\android\build\intermediates\pre-dexed\F0F1F2F3\debug\com.google.android.gms-play-services-basement-9.6.1_32d38ae1ded17e47fe58996717f4be9353f7900c.jar" />
+    </item>
+    <item
+        jar="C:\fimf\find-my-friend\platforms\android\build\intermediates\exploded-aar\List-2016.3.920-dev-release\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="8644d83c548cc6b3f28f96450fe1c1e3f800edeb">
+        <dex dex="C:\fimf\find-my-friend\platforms\android\build\intermediates\pre-dexed\F0F1F2F3\debug\intermediates-exploded-aar-List-2016.3.920-dev-release_549623efc09cb8588db55f02610231dd9414f13b.jar" />
+    </item>
+    <item
+        jar="C:\fimf\find-my-friend\platforms\android\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\fimf\find-my-friend\platforms\android\build\intermediates\pre-dexed\F0F1F2F3\debug\com.android.support-support-vector-drawable-23.4.0_93e31b16a5625a3646a00e9ea6a321457b8a8d95.jar" />
+    </item>
+    <item
+        jar="C:\fimf\find-my-friend\platforms\android\build\intermediates\exploded-aar\Primitives-2016.3.920-dev-release\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="e296c6ddd0f33757e8d66aefb852494ef02541af">
+        <dex dex="C:\fimf\find-my-friend\platforms\android\build\intermediates\pre-dexed\F0F1F2F3\debug\intermediates-exploded-aar-Primitives-2016.3.920-dev-release_fd78538e553f3b2e3f706b71a21594ec4668dc9a.jar" />
+    </item>
+    <item
+        jar="C:\fimf\find-my-friend\platforms\android\build\intermediates\exploded-aar\Data-2016.3.920-dev-release\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="831bf7d7737d28726580ca59ea08cfaf948df276">
+        <dex dex="C:\fimf\find-my-friend\platforms\android\build\intermediates\pre-dexed\F0F1F2F3\debug\intermediates-exploded-aar-Data-2016.3.920-dev-release_054b2a5151c7c102aa35d8b32a54e622000bf28b.jar" />
+    </item>
+    <item
+        jar="C:\fimf\find-my-friend\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="af7582c6b327449c6d32518e6a10307860b7b5d6">
+        <dex dex="C:\fimf\find-my-friend\platforms\android\build\intermediates\pre-dexed\F0F1F2F3\debug\com.google.android.gms-play-services-base-9.6.1_c505f87455b097ded8a1b66268abe1ba82b65e62.jar" />
+    </item>
+    <item
+        jar="C:\fimf\find-my-friend\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="C:\fimf\find-my-friend\platforms\android\build\intermediates\pre-dexed\F0F1F2F3\debug\internal_impl-24.0.0_c48eff949a1a010b250da53a74d1c82e3774c1a3.jar" />
+    </item>
+    <item
+        jar="C:\Users\janteloo\AppData\Local\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="C:\fimf\find-my-friend\platforms\android\build\intermediates\pre-dexed\F0F1F2F3\debug\support-annotations-24.0.0_6315d325827aa9228f71953a6b645760471ed0e7.jar" />
+    </item>
+    <item
+        jar="C:\fimf\find-my-friend\platforms\android\build\intermediates\exploded-aar\widgets-release\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="f3064a6bb3bf091d8ef08a38816df98e4c033ce2">
+        <dex dex="C:\fimf\find-my-friend\platforms\android\build\intermediates\pre-dexed\F0F1F2F3\debug\intermediates-exploded-aar-widgets-release_4bd9defe925f75c7ba3701d7d2c810706f723169.jar" />
+    </item>
+
+</items>

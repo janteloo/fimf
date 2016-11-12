@@ -1,0 +1,39 @@
+﻿@import '~/css/core.light.css'; 
+
+@import url("~/platform.css");
+
+Page {
+  background-color: white;
+  font-size: 15;
+}
+TextField {
+  padding: 10;
+  font-size: 13;
+}
+.small-spacing {
+  margin: 5;
+}
+.medium-spacing {
+  margin: 10;
+}
+ActionBar {
+  background-color: #0284d7;
+  color: white;
+}
+
+.back-btn {
+  height: 60;
+  width: 60; 
+}
+
+.blueBtn {
+  color: white;
+  background-color: #0284d7;
+  max-height: 50;
+}
+
+.redBtn {
+  color: white;
+  background-color: red;
+  max-height: 50;
+}
